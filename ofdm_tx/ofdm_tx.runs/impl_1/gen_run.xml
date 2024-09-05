@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1721116157">
+  <File Type="BITSTR-BMM" Name="ofdm_transmitter_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ofdm_transmitter_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ofdm_transmitter_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="ofdm_transmitter_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ofdm_transmitter.tcl"/>
+  <File Type="OPT-TIMING" Name="ofdm_transmitter_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="ofdm_transmitter_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="ofdm_transmitter_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ofdm_transmitter_reports.tcl"/>
+  <File Type="OPT-DRC" Name="ofdm_transmitter_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ofdm_transmitter.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ofdm_transmitter_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="ofdm_transmitter_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ofdm_transmitter_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ofdm_transmitter_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ofdm_transmitter_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ofdm_transmitter_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ofdm_transmitter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ofdm_transmitter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ofdm_transmitter_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ofdm_transmitter_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ofdm_transmitter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="ofdm_transmitter.bgn"/>
+  <File Type="PLACE-TIMING" Name="ofdm_transmitter_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ofdm_transmitter_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="ofdm_transmitter.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ofdm_transmitter_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ofdm_transmitter_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ofdm_transmitter_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="ofdm_transmitter.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="ofdm_transmitter_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ofdm_transmitter_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ofdm_transmitter_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ofdm_transmitter_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ofdm_transmitter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ofdm_transmitter_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ofdm_transmitter.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="ofdm_transmitter_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="ofdm_transmitter.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ofdm_transmitter_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ofdm_transmitter_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="ofdm_transmitter.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ofdm_transmitter_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ofdm_transmitter_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ofdm_transmitter_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ofdm_transmitter_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ofdm_transmitter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ofdm_transmitter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ofdm_transmitter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ofdm_transmitter_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ofdm_transmitter_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ofdm_transmitter_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ofdm_transmitter_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ofdm_transmitter_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ofdm_transmitter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ofdm_transmitter_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ofdm_transmitter_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ofdm_transmitter_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ofdm_transmitter_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ofdm_transmitter_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ofdm_transmitter_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="ofdm_transmitter.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ofdm_transmitter_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="ofdm_transmitter.rbt"/>
+  <File Type="BITSTR-NKY" Name="ofdm_transmitter.nky"/>
+  <File Type="BG-DRC" Name="ofdm_transmitter.drc"/>
+  <File Type="RDI-RDI" Name="ofdm_transmitter.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../src/IFFT/IFFT.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/sequence_train/LTS_generator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/sequence_train/STS_generator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/cp_adder/cp_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/ofdm_data_modem/data_conv_code.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/ofdm_data_modem/data_interleaver.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/ofdm_data_modem/data_mapping.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/ofdm_data_modem/data_pilot_insert.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/ofdm_data_modem/data_puncturing.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/ofdm_data_modem/data_scramler.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/ofdm_data_modem/ofdm_data_modem.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/ofdm_data_modem/spram_128.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/cp_adder/spram_64.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/sequence_train/symbol_train.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/ofdm_data_modem/sync_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/trans_mcu/trans_mcu.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/ofdm_transmitter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ofdm_transmitter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/time.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/time.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="fft"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_mcu"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_asyn"/>
+  <BlockFileSet Type="BlockSrcs" Name="pll_clk"/>
+</GenRun>

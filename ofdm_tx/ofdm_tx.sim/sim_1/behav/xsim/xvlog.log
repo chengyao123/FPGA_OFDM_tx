@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/fifo_mcu/sim/fifo_mcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_mcu
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/fifo_asyn/sim/fifo_asyn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_asyn
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/pll_clk/pll_clk_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pll_clk_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/pll_clk/pll_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pll_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/IFFT/IFFT.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFFT
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LTS_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/sequence_train/STS_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module STS_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/cp_adder/cp_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cp_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_conv_code.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_conv_code
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_interleaver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_interleaver
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_mapping
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_pilot_insert.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_pilot_insert
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_puncturing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_puncturing
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_scramler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_scramler
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/ofdm_data_modem/ofdm_data_modem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ofdm_data_modem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ofdm_transmitter
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spram_128
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/cp_adder/spram_64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spram_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module symbol_train
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/ofdm_data_modem/sync_buffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_buffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trans_mcu
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/F_prj/ofdm_7.12/test_bench/tb_test_ofdm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_test_ofdm

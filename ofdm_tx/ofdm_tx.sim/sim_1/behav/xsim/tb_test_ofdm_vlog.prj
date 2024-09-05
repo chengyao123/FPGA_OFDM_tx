@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../ofdm_tx.srcs/sources_1/ip/pll_clk" \
+"../../../../ofdm_tx.srcs/sources_1/ip/fifo_mcu/sim/fifo_mcu.v" \
+"../../../../ofdm_tx.srcs/sources_1/ip/fifo_asyn/sim/fifo_asyn.v" \
+"../../../../ofdm_tx.srcs/sources_1/ip/pll_clk/pll_clk_clk_wiz.v" \
+"../../../../ofdm_tx.srcs/sources_1/ip/pll_clk/pll_clk.v" \
+"../../../../../src/IFFT/IFFT.v" \
+"../../../../../src/sequence_train/LTS_generator.v" \
+"../../../../../src/sequence_train/STS_generator.v" \
+"../../../../../src/cp_adder/cp_adder.v" \
+"../../../../../src/ofdm_data_modem/data_conv_code.v" \
+"../../../../../src/ofdm_data_modem/data_interleaver.v" \
+"../../../../../src/ofdm_data_modem/data_mapping.v" \
+"../../../../../src/ofdm_data_modem/data_pilot_insert.v" \
+"../../../../../src/ofdm_data_modem/data_puncturing.v" \
+"../../../../../src/ofdm_data_modem/data_scramler.v" \
+"../../../../../src/ofdm_data_modem/ofdm_data_modem.v" \
+"../../../../../src/ofdm_transmitter.v" \
+"../../../../../src/ofdm_data_modem/spram_128.v" \
+"../../../../../src/cp_adder/spram_64.v" \
+"../../../../../src/sequence_train/symbol_train.v" \
+"../../../../../src/ofdm_data_modem/sync_buffer.v" \
+"../../../../../src/trans_mcu/trans_mcu.v" \
+"../../../../../test_bench/tb_test_ofdm.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,101 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jul 16 14:45:44 2024
+# Process ID: 1940
+# Current directory: F:/F_prj/ofdm_7.12/ofdm_tx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21496 F:\F_prj\ofdm_7.12\ofdm_tx\ofdm_tx.xpr
+# Log file: F:/F_prj/ofdm_7.12/ofdm_tx/vivado.log
+# Journal file: F:/F_prj/ofdm_7.12/ofdm_tx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+add_files -fileset constrs_1 -norecurse {C:/Users/Dell/Desktop/F/ofdm/OFDM_Baseband_Processing/project/ofdm_new/ofdm_new.srcs/constrs_1/new/ping.xdc C:/Users/Dell/Desktop/F/ofdm/OFDM_Baseband_Processing/project/ofdm_new/ofdm_new.srcs/constrs_1/new/debug.xdc}
+reset_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+export_ip_user_files -of_objects  [get_files C:/Users/Dell/Desktop/F/ofdm/OFDM_Baseband_Processing/project/ofdm_new/ofdm_new.srcs/constrs_1/new/ping.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/Dell/Desktop/F/ofdm/OFDM_Baseband_Processing/project/ofdm_new/ofdm_new.srcs/constrs_1/new/ping.xdc
+export_ip_user_files -of_objects  [get_files C:/Users/Dell/Desktop/F/ofdm/OFDM_Baseband_Processing/project/ofdm_new/ofdm_new.srcs/constrs_1/new/debug.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/Dell/Desktop/F/ofdm/OFDM_Baseband_Processing/project/ofdm_new/ofdm_new.srcs/constrs_1/new/debug.xdc
+reset_run synth_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+open_run impl_1
+set_false_path -from [get_clocks -of_objects [get_pins u_pll/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins u_pll/inst/mmcm_adv_inst/CLKOUT1]]
+set_false_path -from [get_clocks -of_objects [get_pins u_pll/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins u_pll/inst/mmcm_adv_inst/CLKOUT2]]
+set_false_path -from [get_clocks -of_objects [get_pins u_pll/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks -of_objects [get_pins u_pll/inst/mmcm_adv_inst/CLKOUT3]]
+set_false_path -from [get_clocks -of_objects [get_pins u_pll/inst/mmcm_adv_inst/CLKOUT2]] -to [get_clocks -of_objects [get_pins u_pll/inst/mmcm_adv_inst/CLKOUT0]]
+file mkdir F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new
+close [ open F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new/time.xdc w ]
+add_files -fileset constrs_1 F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new/time.xdc
+set_property target_constrs_file F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new/time.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+wait_on_run impl_1
+refresh_design
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse F:/F_prj/ofdm_7.12/test_bench/tb_test_ofdm.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_test_ofdm.tcl
+run all
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_ofdm_modem/u_scram}} 
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_ofdm_modem/u_conv_code}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_ofdm_modem/u_punt}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_ofdm_modem/u_intv}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_ifft}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_cp_adder}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_train}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_train/STS}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_train/LTS}} 
+current_wave_config {Untitled 1}
+add_wave {{/tb_test_ofdm/u_test/u_trans_mcu}} 
+run all
+restart
+run all
+run 100 ms
+relaunch_sim
+run 100 ms
+relaunch_sim
+run 100 ms
+relaunch_sim
+run 100 ms
+save_wave_config {F:/F_prj/ofdm_7.12/test_bench/tb_test_ofdm_behav.wcfg}
+add_files -fileset sim_1 -norecurse F:/F_prj/ofdm_7.12/test_bench/tb_test_ofdm_behav.wcfg
+set_property xsim.view F:/F_prj/ofdm_7.12/test_bench/tb_test_ofdm_behav.wcfg [get_filesets sim_1]
+relaunch_sim
+run 100 ms

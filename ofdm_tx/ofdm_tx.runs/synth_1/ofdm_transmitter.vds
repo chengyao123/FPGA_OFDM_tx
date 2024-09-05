@@ -1,0 +1,1184 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jul 16 15:49:20 2024
+# Process ID: 9724
+# Current directory: F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1
+# Command line: vivado.exe -log ofdm_transmitter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ofdm_transmitter.tcl
+# Log file: F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1/ofdm_transmitter.vds
+# Journal file: F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ofdm_transmitter.tcl -notrace
+Command: synth_design -top ofdm_transmitter -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1808 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 472.457 ; gain = 100.480
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ofdm_transmitter' [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:1]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:16]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:17]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:18]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:47]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:48]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:49]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:53]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:54]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:55]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:58]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:59]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:60]
+INFO: [Synth 8-6157] synthesizing module 'pll_clk' [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1/.Xil/Vivado-9724-DESKTOP-5JNUKTK/realtime/pll_clk_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'pll_clk' (1#1) [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1/.Xil/Vivado-9724-DESKTOP-5JNUKTK/realtime/pll_clk_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'symbol_train' [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:1]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:16]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:17]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:18]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:23]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:24]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:25]
+INFO: [Synth 8-6157] synthesizing module 'STS_generator' [F:/F_prj/ofdm_7.12/src/sequence_train/STS_generator.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'STS_generator' (2#1) [F:/F_prj/ofdm_7.12/src/sequence_train/STS_generator.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'sts_index' does not match port width (8) of module 'STS_generator' [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:39]
+INFO: [Synth 8-6157] synthesizing module 'LTS_generator' [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:1]
+WARNING: [Synth 8-324] index 16 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:39]
+WARNING: [Synth 8-324] index 17 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:40]
+WARNING: [Synth 8-324] index 18 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:41]
+WARNING: [Synth 8-324] index 19 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:42]
+WARNING: [Synth 8-324] index 20 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:43]
+WARNING: [Synth 8-324] index 21 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:44]
+WARNING: [Synth 8-324] index 22 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:45]
+WARNING: [Synth 8-324] index 23 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:46]
+WARNING: [Synth 8-324] index 24 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:47]
+WARNING: [Synth 8-324] index 25 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:48]
+WARNING: [Synth 8-324] index 26 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:49]
+WARNING: [Synth 8-324] index 27 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:50]
+WARNING: [Synth 8-324] index 28 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:51]
+WARNING: [Synth 8-324] index 29 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:52]
+WARNING: [Synth 8-324] index 30 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:53]
+WARNING: [Synth 8-324] index 31 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:54]
+WARNING: [Synth 8-324] index 32 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:55]
+WARNING: [Synth 8-324] index 33 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:56]
+WARNING: [Synth 8-324] index 34 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:57]
+WARNING: [Synth 8-324] index 35 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:58]
+WARNING: [Synth 8-324] index 36 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:59]
+WARNING: [Synth 8-324] index 37 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:60]
+WARNING: [Synth 8-324] index 38 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:61]
+WARNING: [Synth 8-324] index 39 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:62]
+WARNING: [Synth 8-324] index 40 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:63]
+WARNING: [Synth 8-324] index 41 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:64]
+WARNING: [Synth 8-324] index 42 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:65]
+WARNING: [Synth 8-324] index 43 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:66]
+WARNING: [Synth 8-324] index 44 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:67]
+WARNING: [Synth 8-324] index 45 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:68]
+WARNING: [Synth 8-324] index 46 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:69]
+WARNING: [Synth 8-324] index 47 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:70]
+WARNING: [Synth 8-324] index 48 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:71]
+WARNING: [Synth 8-324] index 49 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:72]
+WARNING: [Synth 8-324] index 50 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:73]
+WARNING: [Synth 8-324] index 51 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:74]
+WARNING: [Synth 8-324] index 52 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:75]
+WARNING: [Synth 8-324] index 53 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:76]
+WARNING: [Synth 8-324] index 54 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:77]
+WARNING: [Synth 8-324] index 55 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:78]
+WARNING: [Synth 8-324] index 56 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:79]
+WARNING: [Synth 8-324] index 57 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:80]
+WARNING: [Synth 8-324] index 58 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:81]
+WARNING: [Synth 8-324] index 59 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:82]
+WARNING: [Synth 8-324] index 60 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:83]
+WARNING: [Synth 8-324] index 61 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:84]
+WARNING: [Synth 8-324] index 62 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:85]
+WARNING: [Synth 8-324] index 63 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:86]
+WARNING: [Synth 8-324] index 32 out of range [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:115]
+INFO: [Synth 8-6155] done synthesizing module 'LTS_generator' (3#1) [F:/F_prj/ofdm_7.12/src/sequence_train/LTS_generator.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'lts_index' does not match port width (8) of module 'LTS_generator' [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:53]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'STS'. This will prevent further optimization [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:29]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'LTS'. This will prevent further optimization [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'symbol_train' (4#1) [F:/F_prj/ofdm_7.12/src/sequence_train/symbol_train.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ofdm_data_modem' [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/ofdm_data_modem.v:10]
+	Parameter SIGNAL_INTV_TO_QAM_FRE bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'data_scramler' [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_scramler.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'data_scramler' (5#1) [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_scramler.v:2]
+INFO: [Synth 8-6157] synthesizing module 'data_conv_code' [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_conv_code.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'data_conv_code' (6#1) [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_conv_code.v:7]
+INFO: [Synth 8-6157] synthesizing module 'data_puncturing' [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_puncturing.v:11]
+WARNING: [Synth 8-6014] Unused sequential element puncture_in_reg was removed.  [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_puncturing.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'data_puncturing' (7#1) [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_puncturing.v:11]
+INFO: [Synth 8-6157] synthesizing module 'data_interleaver' [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_interleaver.v:17]
+	Parameter SIGNAL_INTV_TO_QAM_FRE bound to: 4 - type: integer 
+	Parameter N_48 bound to: 2'b00 
+	Parameter N_96 bound to: 2'b01 
+	Parameter N_192 bound to: 2'b10 
+	Parameter N_288 bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_interleaver.v:84]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_interleaver.v:103]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_interleaver.v:129]
+INFO: [Synth 8-6157] synthesizing module 'sync_buffer' [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/sync_buffer.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'sync_buffer' (8#1) [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/sync_buffer.v:4]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_interleaver.v:279]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_interleaver.v:292]
+INFO: [Synth 8-6155] done synthesizing module 'data_interleaver' (9#1) [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_interleaver.v:17]
+INFO: [Synth 8-6157] synthesizing module 'data_mapping' [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:26]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:73]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:87]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:183]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:185]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:195]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:200]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:209]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:216]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:227]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:238]
+INFO: [Synth 8-6155] done synthesizing module 'data_mapping' (10#1) [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_mapping.v:26]
+INFO: [Synth 8-6157] synthesizing module 'data_pilot_insert' [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_pilot_insert.v:37]
+INFO: [Synth 8-6157] synthesizing module 'spram_128' [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'spram_128' (11#1) [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'data_pilot_insert' (12#1) [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_pilot_insert.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'ofdm_data_modem' (13#1) [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/ofdm_data_modem.v:10]
+INFO: [Synth 8-6157] synthesizing module 'IFFT' [F:/F_prj/ofdm_7.12/src/IFFT/IFFT.v:1]
+INFO: [Synth 8-6157] synthesizing module 'fifo_asyn' [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1/.Xil/Vivado-9724-DESKTOP-5JNUKTK/realtime/fifo_asyn_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_asyn' (14#1) [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1/.Xil/Vivado-9724-DESKTOP-5JNUKTK/realtime/fifo_asyn_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fft' [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1/.Xil/Vivado-9724-DESKTOP-5JNUKTK/realtime/fft_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fft' (15#1) [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1/.Xil/Vivado-9724-DESKTOP-5JNUKTK/realtime/fft_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'IFFT' (16#1) [F:/F_prj/ofdm_7.12/src/IFFT/IFFT.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cp_adder' [F:/F_prj/ofdm_7.12/src/cp_adder/cp_adder.v:13]
+INFO: [Synth 8-6157] synthesizing module 'spram_64' [F:/F_prj/ofdm_7.12/src/cp_adder/spram_64.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'spram_64' (17#1) [F:/F_prj/ofdm_7.12/src/cp_adder/spram_64.v:4]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/cp_adder/cp_adder.v:166]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/cp_adder/cp_adder.v:189]
+INFO: [Synth 8-226] default block is never used [F:/F_prj/ofdm_7.12/src/cp_adder/cp_adder.v:208]
+INFO: [Synth 8-6155] done synthesizing module 'cp_adder' (18#1) [F:/F_prj/ofdm_7.12/src/cp_adder/cp_adder.v:13]
+INFO: [Synth 8-6157] synthesizing module 'trans_mcu' [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:1]
+	Parameter OFDM_SYMBOL_BYTES bound to: 18 - type: integer 
+	Parameter SYMBOL_PERIOD_TIME bound to: 240 - type: integer 
+	Parameter SIGNAL_BIT_PERIOD bound to: 6 - type: integer 
+	Parameter DATA_SYMBO_WAIT_TIME bound to: 105 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:8]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:9]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:10]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:11]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:12]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:13]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:15]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:17]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:18]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:19]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:20]
+INFO: [Synth 8-6157] synthesizing module 'fifo_mcu' [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1/.Xil/Vivado-9724-DESKTOP-5JNUKTK/realtime/fifo_mcu_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_mcu' (19#1) [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1/.Xil/Vivado-9724-DESKTOP-5JNUKTK/realtime/fifo_mcu_stub.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 'dout' does not match port width (8) of module 'fifo_mcu' [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:345]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_byte_to_bit'. This will prevent further optimization [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:337]
+WARNING: [Synth 8-6014] Unused sequential element rate_reg was removed.  [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:95]
+INFO: [Synth 8-6155] done synthesizing module 'trans_mcu' (20#1) [F:/F_prj/ofdm_7.12/src/trans_mcu/trans_mcu.v:1]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_ofdm_modem'. This will prevent further optimization [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:95]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_ifft'. This will prevent further optimization [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:115]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_cp_adder'. This will prevent further optimization [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:132]
+INFO: [Synth 8-6155] done synthesizing module 'ofdm_transmitter' (21#1) [F:/F_prj/ofdm_7.12/src/ofdm_transmitter.v:1]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port rst_n
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_a[7]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_a[6]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_a[5]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_a[4]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_a[3]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_a[2]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_a[1]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_b[7]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_b[6]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_b[5]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_b[4]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_b[3]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_b[2]
+WARNING: [Synth 8-3331] design spram_64 has unconnected port din_b[1]
+WARNING: [Synth 8-3331] design sync_buffer has unconnected port rst_n
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 551.000 ; gain = 179.023
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin spram:din_b to constant 0 [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_interleaver.v:158]
+WARNING: [Synth 8-3295] tying undriven pin spram_re_1:din_b[0] to constant 0 [F:/F_prj/ofdm_7.12/src/cp_adder/cp_adder.v:50]
+WARNING: [Synth 8-3295] tying undriven pin spram_im_1:din_b[0] to constant 0 [F:/F_prj/ofdm_7.12/src/cp_adder/cp_adder.v:67]
+WARNING: [Synth 8-3295] tying undriven pin spram_re_2:din_b[0] to constant 0 [F:/F_prj/ofdm_7.12/src/cp_adder/cp_adder.v:85]
+WARNING: [Synth 8-3295] tying undriven pin spram_im_2:din_b[0] to constant 0 [F:/F_prj/ofdm_7.12/src/cp_adder/cp_adder.v:102]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 551.000 ; gain = 179.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 551.000 ; gain = 179.023
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/fifo_mcu/fifo_mcu/fifo_mcu_in_context.xdc] for cell 'u_trans_mcu/u_byte_to_bit'
+Finished Parsing XDC File [f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/fifo_mcu/fifo_mcu/fifo_mcu_in_context.xdc] for cell 'u_trans_mcu/u_byte_to_bit'
+Parsing XDC File [f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/fifo_asyn/fifo_asyn/fifo_asyn_in_context.xdc] for cell 'u_ifft/u_fifo_in'
+Finished Parsing XDC File [f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/fifo_asyn/fifo_asyn/fifo_asyn_in_context.xdc] for cell 'u_ifft/u_fifo_in'
+Parsing XDC File [f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/fifo_asyn/fifo_asyn/fifo_asyn_in_context.xdc] for cell 'u_ifft/u_fifo_out'
+Finished Parsing XDC File [f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/fifo_asyn/fifo_asyn/fifo_asyn_in_context.xdc] for cell 'u_ifft/u_fifo_out'
+Parsing XDC File [f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/fft/fft/fft_in_context.xdc] for cell 'u_ifft/u_fft'
+Finished Parsing XDC File [f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/fft/fft/fft_in_context.xdc] for cell 'u_ifft/u_fft'
+Parsing XDC File [f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/pll_clk/pll_clk/pll_clk_in_context.xdc] for cell 'u_pll'
+Finished Parsing XDC File [f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/pll_clk/pll_clk/pll_clk_in_context.xdc] for cell 'u_pll'
+Parsing XDC File [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new/time.xdc]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-reset_path' is not supported by synthesis. The constraint will not be passed to synthesis. [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new/time.xdc:1]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-reset_path' is not supported by synthesis. The constraint will not be passed to synthesis. [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new/time.xdc:2]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-reset_path' is not supported by synthesis. The constraint will not be passed to synthesis. [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new/time.xdc:3]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-reset_path' is not supported by synthesis. The constraint will not be passed to synthesis. [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new/time.xdc:4]
+Finished Parsing XDC File [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new/time.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/constrs_1/new/time.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ofdm_transmitter_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ofdm_transmitter_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 928.398 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 928.609 ; gain = 0.035
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 928.609 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 928.609 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 928.766 ; gain = 556.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 928.766 ; gain = 556.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk. (constraint file  f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/pll_clk/pll_clk/pll_clk_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk. (constraint file  f:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.srcs/sources_1/ip/pll_clk/pll_clk/pll_clk_in_context.xdc, line 7).
+Applied set_property DONT_TOUCH = true for u_trans_mcu/u_byte_to_bit. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_ifft/u_fifo_in. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_ifft/u_fifo_out. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_ifft/u_fft. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_pll. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 928.766 ; gain = 556.789
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "i" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnt_index" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_valid" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_valid" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnt_bit_max" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "punt_dout" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "punt_dout" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "symbol_len_con" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "symbol_len_con" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "back_12bits" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "map_bits" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "map_bits" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "int_mem_reg[127]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[126]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[125]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[124]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[123]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[122]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[121]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[120]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[119]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[118]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[117]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[116]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[115]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[114]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[113]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[112]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[111]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[110]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[109]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[108]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[107]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[106]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[105]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[104]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[103]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[102]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[101]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[100]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[99]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[98]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[97]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[96]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[95]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[94]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[93]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[92]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[91]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[90]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[89]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[88]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[87]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[86]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[85]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[84]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[83]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[82]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[81]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[80]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[79]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[78]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[77]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[76]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[75]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[74]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[73]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[72]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[71]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[70]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[69]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[68]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[67]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[66]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[65]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[64]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[63]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[62]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[61]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[60]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[59]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[58]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[57]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[56]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[55]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[54]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[53]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[52]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[51]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[50]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[49]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[48]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[47]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[46]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[45]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[44]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[43]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[42]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[41]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[40]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[39]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[38]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[37]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[36]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[35]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[34]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[33]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[32]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "int_mem_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4471] merging register 'im_we_a_reg' into 'pilot_en1_reg' [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/data_pilot_insert.v:195]
+INFO: [Synth 8-5587] ROM size for "rate_con" is below threshold of ROM address width. It will be mapped to LUTs
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 928.766 ; gain = 556.789
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 13    
+	   3 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 7     
+	   3 Input      8 Bit       Adders := 1     
+	   3 Input      7 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 3     
+	   2 Input      6 Bit       Adders := 9     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 6     
+	   2 Input      2 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 2     
+	   3 Input      1 Bit       Adders := 1     
+	   5 Input      1 Bit       Adders := 2     
++---XORs : 
+	               17 Bit    Wide XORs := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               16 Bit    Registers := 33    
+	               12 Bit    Registers := 1     
+	                9 Bit    Registers := 7     
+	                8 Bit    Registers := 33    
+	                7 Bit    Registers := 8     
+	                6 Bit    Registers := 10    
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 6     
+	                3 Bit    Registers := 7     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 78    
++---Muxes : 
+	   4 Input      9 Bit        Muxes := 5     
+	   2 Input      9 Bit        Muxes := 10    
+	   2 Input      8 Bit        Muxes := 60    
+	   8 Input      8 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	  14 Input      8 Bit        Muxes := 1     
+	   6 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 7     
+	   3 Input      7 Bit        Muxes := 1     
+	  10 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 7     
+	   4 Input      6 Bit        Muxes := 1     
+	   6 Input      6 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 7     
+	   4 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 9     
+	   7 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 587   
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 5     
+	   8 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ofdm_transmitter 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module STS_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 16    
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 7     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+Module LTS_generator 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 16    
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 7     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module symbol_train 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+Module data_scramler 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      1 Bit       Adders := 1     
+	   3 Input      1 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module data_conv_code 
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input      1 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
+Module data_puncturing 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                6 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   5 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+	   8 Input      1 Bit        Muxes := 1     
+Module sync_buffer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module data_interleaver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      9 Bit       Adders := 11    
+	   3 Input      9 Bit       Adders := 2     
+	   3 Input      8 Bit       Adders := 1     
+	   3 Input      7 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                9 Bit    Registers := 5     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   4 Input      9 Bit        Muxes := 5     
+	   2 Input      9 Bit        Muxes := 7     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 1     
+Module data_mapping 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 2     
+	                6 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 5     
+	   8 Input      8 Bit        Muxes := 1     
+	   7 Input      8 Bit        Muxes := 1     
+	  14 Input      8 Bit        Muxes := 1     
+	  10 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 3     
+	   4 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module spram_128 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 256   
+Module data_pilot_insert 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 6     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 5     
+	                7 Bit    Registers := 5     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   6 Input      8 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 5     
+	   6 Input      6 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 8     
+	   6 Input      1 Bit        Muxes := 1     
+Module IFFT 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 1     
+Module spram_64 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+Module cp_adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 6     
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 8     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 10    
+Module trans_mcu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	               17 Bit    Wide XORs := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "i" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cache_valid" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "map_bits" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5587] ROM size for "rate_con" is below threshold of ROM address width. It will be mapped to LUTs
+WARNING: [Synth 8-6014] Unused sequential element u_intv/spram/int_mem_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element spram_re_1/int_mem_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element spram_re_2/int_mem_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element spram_im_1/int_mem_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element spram_im_2/int_mem_reg was removed. 
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[15][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[14][8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[13][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[12][8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[11][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[10][8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[9][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[8][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[7][8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[6][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[5][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[4][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[3][8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[2][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[1][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[15][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[14][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[13][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[12][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[11][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[10][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[9][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[8][9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[7][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[6][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[5][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[4][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[3][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[2][9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[1][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[15][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[14][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[13][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[12][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[11][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[10][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[9][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[8][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[7][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[6][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[5][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[4][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[3][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[2][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[1][10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[15][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[14][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[13][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[12][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[11][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[10][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[9][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[8][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[7][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[6][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[5][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[4][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[3][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[2][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[1][11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[15][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[14][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[13][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[12][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[11][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[10][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[9][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[8][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[7][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[6][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[5][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[4][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[3][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[2][12] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[1][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[15][13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[14][13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[13][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[12][13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[11][13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[10][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[9][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[8][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[7][13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[6][13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[5][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[4][13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[3][13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[2][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[1][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[15][14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[14][14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\u_train/STS /\short_mem_reg[13][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_train/STS /\short_mem_reg[12][14] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'u_train/LTS/i_reg[0]' (FDCE) to 'u_train/LTS/i_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_train/LTS/i_reg[1]' (FDCE) to 'u_train/LTS/i_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_train/LTS/i_reg[2]' (FDCE) to 'u_train/LTS/i_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_train/LTS/lts_re_reg[6]' (FDCE) to 'u_train/LTS/lts_re_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_train/LTS/lts_im_reg[6]' (FDCE) to 'u_train/LTS/lts_im_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_punt/puncture_reg_reg[5]' (FDC) to 'u_ofdm_modem/u_punt/puncture_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_punt/puncture_reg1_reg[5]' (FDC) to 'u_ofdm_modem/u_punt/puncture_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_punt/puncture_reg1_reg[2]' (FDC) to 'u_ofdm_modem/u_punt/puncture_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_intv/data_buf_len_reg[0]' (FDCE) to 'u_ofdm_modem/u_intv/data_buf_len_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_intv/data_buf_len_reg[1]' (FDCE) to 'u_ofdm_modem/u_intv/data_buf_len_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_intv/data_buf_len_reg[2]' (FDCE) to 'u_ofdm_modem/u_intv/data_buf_len_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_QAM16/map_bits_20m_reg[2]' (FDCE) to 'u_ofdm_modem/u_QAM16/map_type_20m_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_QAM16/map_bits_20m_reg[1]' (FDCE) to 'u_ofdm_modem/u_QAM16/map_type_20m_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_QAM16/map_bits_20m_reg[3]' (FDCE) to 'u_ofdm_modem/u_QAM16/map_type_20m_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_QAM16/map_bits_20m_reg[4]' (FDCE) to 'u_ofdm_modem/u_QAM16/map_type_20m_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_QAM16/map_bits_20m_reg[5]' (FDCE) to 'u_ofdm_modem/u_QAM16/map_type_20m_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/signal_region_reg[23]' (FDC) to 'u_trans_mcu/signal_region_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/signal_region_reg[22]' (FDC) to 'u_trans_mcu/signal_region_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/signal_region_reg[21]' (FDC) to 'u_trans_mcu/signal_region_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/signal_region_reg[20]' (FDC) to 'u_trans_mcu/signal_region_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/signal_region_reg[19]' (FDC) to 'u_trans_mcu/signal_region_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/signal_region_reg[18]' (FDC) to 'u_trans_mcu/signal_region_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/scram_seed_reg[0]' (FDCE) to 'u_trans_mcu/scram_seed_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/scram_seed_reg[1]' (FDCE) to 'u_trans_mcu/scram_seed_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/scram_seed_reg[2]' (FDCE) to 'u_trans_mcu/scram_seed_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/scram_seed_reg[3]' (FDCE) to 'u_trans_mcu/scram_seed_reg[4]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/scram_seed_reg[4]' (FDCE) to 'u_trans_mcu/scram_seed_reg[6]'
+INFO: [Synth 8-3886] merging instance 'u_train/STS/sts_re_reg[5]' (FDCE) to 'u_train/STS/sts_im_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_ofdm_modem/u_QAM16/QAM16_im_reg[0]' (FDCE) to 'u_ofdm_modem/u_QAM16/QAM16_re_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_trans_mcu/symbol_delay_time_reg[7]' (FDCE) to 'u_trans_mcu/symbol_delay_time_reg[8]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 928.766 ; gain = 556.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object             | Inference | Size (Depth x Width) | Primitives     | 
++------------+------------------------+-----------+----------------------+----------------+
+|u_cp_adder  | spram_re_1/int_mem_reg | Implied   | 64 x 1               | RAM64X1D x 1   | 
+|u_cp_adder  | spram_re_2/int_mem_reg | Implied   | 64 x 1               | RAM64X1D x 1   | 
+|u_cp_adder  | spram_im_1/int_mem_reg | Implied   | 64 x 1               | RAM64X1D x 1   | 
+|u_cp_adder  | spram_im_2/int_mem_reg | Implied   | 64 x 1               | RAM64X1D x 1   | 
++------------+------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'u_pll/clk_20m' to pin 'u_pll/bbstub_clk_20m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'u_pll/clk_60m' to pin 'u_pll/bbstub_clk_60m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'u_pll/clk_7_5m' to pin 'u_pll/bbstub_clk_7_5m/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'u_pll/clk_80m' to pin 'u_pll/bbstub_clk_80m/O'
+INFO: [Synth 8-5819] Moved 4 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 928.766 ; gain = 556.789
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 932.602 ; gain = 560.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+------------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object             | Inference | Size (Depth x Width) | Primitives     | 
++------------+------------------------+-----------+----------------------+----------------+
+|u_cp_adder  | spram_re_1/int_mem_reg | Implied   | 64 x 1               | RAM64X1D x 1   | 
+|u_cp_adder  | spram_re_2/int_mem_reg | Implied   | 64 x 1               | RAM64X1D x 1   | 
+|u_cp_adder  | spram_im_1/int_mem_reg | Implied   | 64 x 1               | RAM64X1D x 1   | 
+|u_cp_adder  | spram_im_2/int_mem_reg | Implied   | 64 x 1               | RAM64X1D x 1   | 
++------------+------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'u_train/STS/sts_re_reg[6]' (FDCE) to 'u_train/STS/sts_re_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u_train/STS/sts_im_reg[6]' (FDCE) to 'u_train/STS/sts_im_reg[7]'
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[127][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[127][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[127][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[127][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[126][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[126][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[126][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[126][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[125][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[125][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[125][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[125][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[124][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[124][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[124][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[124][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[123][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[123][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[123][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[123][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[122][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[122][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[122][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[122][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[121][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[121][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[121][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[121][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[120][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[120][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[120][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[120][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[119][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[119][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[119][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[119][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[118][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[118][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[118][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[118][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[117][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[117][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[117][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[117][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[116][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[116][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[116][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[116][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[115][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[115][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[115][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[115][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[114][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[114][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[114][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[114][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[113][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[113][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[113][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[113][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[112][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[112][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[112][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[112][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[111][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[111][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[111][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[111][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[110][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[110][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[110][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[110][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[109][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[109][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[109][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[109][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[108][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[108][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[108][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[108][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[107][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[107][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[107][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[107][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[106][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[106][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[106][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[106][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[105][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[105][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[105][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[105][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[104][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[104][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[104][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[104][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[103][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[103][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[103][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[103][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[102][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[102][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[102][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[102][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[101][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[101][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[101][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[101][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[100][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[100][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[100][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[100][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[99][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[99][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[99][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[99][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[98][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[98][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[98][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[98][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[97][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[97][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[97][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[97][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[96][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[96][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[96][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[96][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[95][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[95][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[95][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[95][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[94][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[94][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[94][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[94][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[93][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[93][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[93][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[93][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[92][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[92][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[92][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[92][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[91][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[91][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[91][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[91][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[90][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[90][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[90][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[90][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[89][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[89][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[89][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[89][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[88][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[88][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[88][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[88][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[87][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[87][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[87][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[87][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[86][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[86][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[86][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[86][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[85][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[85][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[85][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[85][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[84][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[84][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[84][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[84][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[83][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[83][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[83][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[83][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[82][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[82][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[82][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[82][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[81][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[81][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[81][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[81][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[80][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[80][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[80][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[80][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[79][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[79][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[79][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[79][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[78][0]__1 ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[78][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:28]
+INFO: [Synth 8-5966] Removing register instance (\u_data_pilot_insert/spram_re/int_mem_reg[78][0] ) from module (ofdm_data_modem) as it has self-loop and (\u_data_pilot_insert/spram_re/int_mem_reg[78][0]__0 ) is actual driver [F:/F_prj/ofdm_7.12/src/ofdm_data_modem/spram_128.v:41]
+INFO: [Common 17-14] Message 'Synth 8-5966' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:35 . Memory (MB): peak = 939.324 ; gain = 567.348
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 939.324 ; gain = 567.348
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 939.324 ; gain = 567.348
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 939.324 ; gain = 567.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 939.324 ; gain = 567.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 939.324 ; gain = 567.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 939.324 ; gain = 567.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |fifo_asyn     |         2|
+|2     |fft           |         1|
+|3     |fifo_mcu      |         1|
+|4     |pll_clk       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |fft          |     1|
+|2     |fifo_asyn    |     1|
+|3     |fifo_asyn__2 |     1|
+|4     |fifo_mcu     |     1|
+|5     |pll_clk      |     1|
+|6     |CARRY4       |    35|
+|7     |LUT1         |    27|
+|8     |LUT2         |   222|
+|9     |LUT3         |   105|
+|10    |LUT4         |   232|
+|11    |LUT5         |   132|
+|12    |LUT6         |   445|
+|13    |MUXF7        |    34|
+|14    |MUXF8        |    16|
+|15    |RAM64X1D     |     4|
+|16    |FDCE         |   381|
+|17    |FDPE         |     6|
+|18    |FDRE         |   304|
+|19    |IBUF         |    32|
+|20    |OBUF         |    30|
++------+-------------+------+
+
+Report Instance Areas: 
++------+------------------------+------------------+------+
+|      |Instance                |Module            |Cells |
++------+------------------------+------------------+------+
+|1     |top                     |                  |  2120|
+|2     |  u_ofdm_modem          |ofdm_data_modem   |  1200|
+|3     |    u_QAM16             |data_mapping      |    58|
+|4     |    u_conv_code         |data_conv_code    |     5|
+|5     |    u_data_pilot_insert |data_pilot_insert |  1001|
+|6     |      spram_im          |spram_128         |   470|
+|7     |      spram_re          |spram_128_3       |   462|
+|8     |    u_intv              |data_interleaver  |    93|
+|9     |    u_punt              |data_puncturing   |    40|
+|10    |    u_scram             |data_scramler     |     3|
+|11    |  u_ifft                |IFFT              |   174|
+|12    |  u_cp_adder            |cp_adder          |   208|
+|13    |    spram_im_1          |spram_64          |    23|
+|14    |    spram_im_2          |spram_64_0        |    19|
+|15    |    spram_re_1          |spram_64_1        |    24|
+|16    |    spram_re_2          |spram_64_2        |    10|
+|17    |  u_trans_mcu           |trans_mcu         |   310|
+|18    |  u_train               |symbol_train      |   153|
+|19    |    STS                 |STS_generator     |    74|
+|20    |    LTS                 |LTS_generator     |    61|
++------+------------------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 939.324 ; gain = 567.348
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 939.324 ; gain = 189.582
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 939.324 ; gain = 567.348
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 89 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 939.324 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+465 Infos, 84 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:39 . Memory (MB): peak = 939.324 ; gain = 578.816
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 939.324 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'F:/F_prj/ofdm_7.12/ofdm_tx/ofdm_tx.runs/synth_1/ofdm_transmitter.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ofdm_transmitter_utilization_synth.rpt -pb ofdm_transmitter_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 16 15:50:08 2024...

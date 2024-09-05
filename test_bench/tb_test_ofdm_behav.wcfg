@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_test_ofdm_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_test_ofdm" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="49400000001fs"></ZoomEndTime>
+      <Cursor1Time time="21399315000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="87"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="group408" type="group">
+      <obj_property name="label">Top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group407" type="group">
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/sys_clk" type="logic">
+         <obj_property name="ElementShortName">sys_clk</obj_property>
+         <obj_property name="ObjectShortName">sys_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/sys_rst_n" type="logic">
+         <obj_property name="ElementShortName">sys_rst_n</obj_property>
+         <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/mac_clk" type="logic">
+         <obj_property name="ElementShortName">mac_clk</obj_property>
+         <obj_property name="ObjectShortName">mac_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/phy_status" type="logic">
+         <obj_property name="ElementShortName">phy_status</obj_property>
+         <obj_property name="ObjectShortName">phy_status</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/txstart_req" type="logic">
+         <obj_property name="ElementShortName">txstart_req</obj_property>
+         <obj_property name="ObjectShortName">txstart_req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/tx_param" type="array">
+         <obj_property name="ElementShortName">tx_param[20:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_param[20:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/din_vld" type="logic">
+         <obj_property name="ElementShortName">din_vld</obj_property>
+         <obj_property name="ObjectShortName">din_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/din_req" type="logic">
+         <obj_property name="ElementShortName">din_req</obj_property>
+         <obj_property name="ObjectShortName">din_req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/dout_re" type="array">
+         <obj_property name="ElementShortName">dout_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_re[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/dout_im" type="array">
+         <obj_property name="ElementShortName">dout_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_im[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/dout_vld" type="logic">
+         <obj_property name="ElementShortName">dout_vld</obj_property>
+         <obj_property name="ObjectShortName">dout_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/dout_txpwr" type="array">
+         <obj_property name="ElementShortName">dout_txpwr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_txpwr[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/T" type="array">
+         <obj_property name="ElementShortName">T[31:0]</obj_property>
+         <obj_property name="ObjectShortName">T[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/TX_PARAMETER" type="array">
+         <obj_property name="ElementShortName">TX_PARAMETER[40:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_PARAMETER[40:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group409" type="group">
+      <obj_property name="label">scram</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/scram_din" type="logic">
+         <obj_property name="ElementShortName">scram_din</obj_property>
+         <obj_property name="ObjectShortName">scram_din</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/scram_en" type="logic">
+         <obj_property name="ElementShortName">scram_en</obj_property>
+         <obj_property name="ObjectShortName">scram_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/scram_seed" type="array">
+         <obj_property name="ElementShortName">scram_seed[6:0]</obj_property>
+         <obj_property name="ObjectShortName">scram_seed[6:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/tx_clr" type="logic">
+         <obj_property name="ElementShortName">tx_clr</obj_property>
+         <obj_property name="ObjectShortName">tx_clr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/singal_flag_in" type="logic">
+         <obj_property name="ElementShortName">singal_flag_in</obj_property>
+         <obj_property name="ObjectShortName">singal_flag_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/signal_flag_out" type="logic">
+         <obj_property name="ElementShortName">signal_flag_out</obj_property>
+         <obj_property name="ObjectShortName">signal_flag_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/scram_dout" type="logic">
+         <obj_property name="ElementShortName">scram_dout</obj_property>
+         <obj_property name="ObjectShortName">scram_dout</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/scram_vld" type="logic">
+         <obj_property name="ElementShortName">scram_vld</obj_property>
+         <obj_property name="ObjectShortName">scram_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_scram/shift_reg" type="array">
+         <obj_property name="ElementShortName">shift_reg[6:0]</obj_property>
+         <obj_property name="ObjectShortName">shift_reg[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group410" type="group">
+      <obj_property name="label">conv_code</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_conv_code/din_clk" type="logic">
+         <obj_property name="ElementShortName">din_clk</obj_property>
+         <obj_property name="ObjectShortName">din_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_conv_code/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_conv_code/singal_flag_in" type="logic">
+         <obj_property name="ElementShortName">singal_flag_in</obj_property>
+         <obj_property name="ObjectShortName">singal_flag_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_conv_code/conv_din" type="logic">
+         <obj_property name="ElementShortName">conv_din</obj_property>
+         <obj_property name="ObjectShortName">conv_din</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_conv_code/conv_en" type="logic">
+         <obj_property name="ElementShortName">conv_en</obj_property>
+         <obj_property name="ObjectShortName">conv_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_conv_code/signal_flag_out" type="logic">
+         <obj_property name="ElementShortName">signal_flag_out</obj_property>
+         <obj_property name="ObjectShortName">signal_flag_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_conv_code/conv_dout" type="array">
+         <obj_property name="ElementShortName">conv_dout[1:0]</obj_property>
+         <obj_property name="ObjectShortName">conv_dout[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_conv_code/conv_vld" type="logic">
+         <obj_property name="ElementShortName">conv_vld</obj_property>
+         <obj_property name="ObjectShortName">conv_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_conv_code/shift_reg" type="array">
+         <obj_property name="ElementShortName">shift_reg[5:0]</obj_property>
+         <obj_property name="ObjectShortName">shift_reg[5:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group411" type="group">
+      <obj_property name="label">punt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/din_clk" type="logic">
+         <obj_property name="ElementShortName">din_clk</obj_property>
+         <obj_property name="ObjectShortName">din_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/cb_clk" type="logic">
+         <obj_property name="ElementShortName">cb_clk</obj_property>
+         <obj_property name="ObjectShortName">cb_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/rate_con" type="array">
+         <obj_property name="ElementShortName">rate_con[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rate_con[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/singal_flag_in" type="logic">
+         <obj_property name="ElementShortName">singal_flag_in</obj_property>
+         <obj_property name="ObjectShortName">singal_flag_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/punt_din" type="array">
+         <obj_property name="ElementShortName">punt_din[1:0]</obj_property>
+         <obj_property name="ObjectShortName">punt_din[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/punt_en" type="logic">
+         <obj_property name="ElementShortName">punt_en</obj_property>
+         <obj_property name="ObjectShortName">punt_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/symbol_len_con" type="array">
+         <obj_property name="ElementShortName">symbol_len_con[1:0]</obj_property>
+         <obj_property name="ObjectShortName">symbol_len_con[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/signal_flag_out" type="logic">
+         <obj_property name="ElementShortName">signal_flag_out</obj_property>
+         <obj_property name="ObjectShortName">signal_flag_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/punt_dout" type="logic">
+         <obj_property name="ElementShortName">punt_dout</obj_property>
+         <obj_property name="ObjectShortName">punt_dout</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/punt_vld" type="logic">
+         <obj_property name="ElementShortName">punt_vld</obj_property>
+         <obj_property name="ObjectShortName">punt_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/puncture_in" type="array">
+         <obj_property name="ElementShortName">puncture_in[5:0]</obj_property>
+         <obj_property name="ObjectShortName">puncture_in[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/puncture_reg" type="array">
+         <obj_property name="ElementShortName">puncture_reg[5:0]</obj_property>
+         <obj_property name="ObjectShortName">puncture_reg[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/puncture_reg1" type="array">
+         <obj_property name="ElementShortName">puncture_reg1[5:0]</obj_property>
+         <obj_property name="ObjectShortName">puncture_reg1[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/cnt_index" type="array">
+         <obj_property name="ElementShortName">cnt_index[2:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_index[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/cnt_bit" type="array">
+         <obj_property name="ElementShortName">cnt_bit[2:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bit[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/cnt_bit_max" type="array">
+         <obj_property name="ElementShortName">cnt_bit_max[2:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bit_max[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/cache_valid" type="logic">
+         <obj_property name="ElementShortName">cache_valid</obj_property>
+         <obj_property name="ObjectShortName">cache_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/cache_valid_reg" type="logic">
+         <obj_property name="ElementShortName">cache_valid_reg</obj_property>
+         <obj_property name="ObjectShortName">cache_valid_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/cache_valid_reg1" type="logic">
+         <obj_property name="ElementShortName">cache_valid_reg1</obj_property>
+         <obj_property name="ObjectShortName">cache_valid_reg1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/singal_flag1" type="logic">
+         <obj_property name="ElementShortName">singal_flag1</obj_property>
+         <obj_property name="ObjectShortName">singal_flag1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/singal_flag2" type="logic">
+         <obj_property name="ElementShortName">singal_flag2</obj_property>
+         <obj_property name="ObjectShortName">singal_flag2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/singal_flag3" type="logic">
+         <obj_property name="ElementShortName">singal_flag3</obj_property>
+         <obj_property name="ObjectShortName">singal_flag3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/singal_flag4" type="logic">
+         <obj_property name="ElementShortName">singal_flag4</obj_property>
+         <obj_property name="ObjectShortName">singal_flag4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_punt/Rate_Con" type="array">
+         <obj_property name="ElementShortName">Rate_Con[3:0]</obj_property>
+         <obj_property name="ObjectShortName">Rate_Con[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group412" type="group">
+      <obj_property name="label">intv</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/cb_clk" type="logic">
+         <obj_property name="ElementShortName">cb_clk</obj_property>
+         <obj_property name="ObjectShortName">cb_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/intv_din" type="logic">
+         <obj_property name="ElementShortName">intv_din</obj_property>
+         <obj_property name="ObjectShortName">intv_din</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/intv_en" type="logic">
+         <obj_property name="ElementShortName">intv_en</obj_property>
+         <obj_property name="ObjectShortName">intv_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/intv_con" type="array">
+         <obj_property name="ElementShortName">intv_con[1:0]</obj_property>
+         <obj_property name="ObjectShortName">intv_con[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/signal_flag_in" type="logic">
+         <obj_property name="ElementShortName">signal_flag_in</obj_property>
+         <obj_property name="ObjectShortName">signal_flag_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/map_type" type="array">
+         <obj_property name="ElementShortName">map_type[1:0]</obj_property>
+         <obj_property name="ObjectShortName">map_type[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/intv_dout" type="logic">
+         <obj_property name="ElementShortName">intv_dout</obj_property>
+         <obj_property name="ObjectShortName">intv_dout</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/intv_vld" type="logic">
+         <obj_property name="ElementShortName">intv_vld</obj_property>
+         <obj_property name="ObjectShortName">intv_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/i" type="logic">
+         <obj_property name="ElementShortName">i</obj_property>
+         <obj_property name="ObjectShortName">i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/we_a" type="logic">
+         <obj_property name="ElementShortName">we_a</obj_property>
+         <obj_property name="ObjectShortName">we_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/addr_a" type="array">
+         <obj_property name="ElementShortName">addr_a[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_a[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/din_a" type="logic">
+         <obj_property name="ElementShortName">din_a</obj_property>
+         <obj_property name="ObjectShortName">din_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/we_b" type="logic">
+         <obj_property name="ElementShortName">we_b</obj_property>
+         <obj_property name="ObjectShortName">we_b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/addr_b" type="array">
+         <obj_property name="ElementShortName">addr_b[8:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_b[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/cnt_index_max" type="array">
+         <obj_property name="ElementShortName">cnt_index_max[8:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_index_max[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/cnt_index" type="array">
+         <obj_property name="ElementShortName">cnt_index[8:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_index[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/dout_b" type="logic">
+         <obj_property name="ElementShortName">dout_b</obj_property>
+         <obj_property name="ObjectShortName">dout_b</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/end_cnt_index" type="logic">
+         <obj_property name="ElementShortName">end_cnt_index</obj_property>
+         <obj_property name="ObjectShortName">end_cnt_index</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/add_cnt_index" type="logic">
+         <obj_property name="ElementShortName">add_cnt_index</obj_property>
+         <obj_property name="ObjectShortName">add_cnt_index</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/buf_a_flag" type="logic">
+         <obj_property name="ElementShortName">buf_a_flag</obj_property>
+         <obj_property name="ObjectShortName">buf_a_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/buf_b_flag" type="logic">
+         <obj_property name="ElementShortName">buf_b_flag</obj_property>
+         <obj_property name="ObjectShortName">buf_b_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/data_buf_len" type="array">
+         <obj_property name="ElementShortName">data_buf_len[8:0]</obj_property>
+         <obj_property name="ObjectShortName">data_buf_len[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/signal_flag_reg" type="logic">
+         <obj_property name="ElementShortName">signal_flag_reg</obj_property>
+         <obj_property name="ObjectShortName">signal_flag_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/intv_con1" type="array">
+         <obj_property name="ElementShortName">intv_con1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">intv_con1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/cnt_bit" type="array">
+         <obj_property name="ElementShortName">cnt_bit[8:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bit[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/cnt_bit_12" type="array">
+         <obj_property name="ElementShortName">cnt_bit_12[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bit_12[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/back_12bits" type="logic">
+         <obj_property name="ElementShortName">back_12bits</obj_property>
+         <obj_property name="ObjectShortName">back_12bits</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/signal_bit_cnt" type="array">
+         <obj_property name="ElementShortName">signal_bit_cnt[2:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_bit_cnt[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/signal_interval_time" type="array">
+         <obj_property name="ElementShortName">signal_interval_time[2:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_interval_time[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/rd_buf_vld" type="logic">
+         <obj_property name="ElementShortName">rd_buf_vld</obj_property>
+         <obj_property name="ObjectShortName">rd_buf_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/SIGNAL_INTV_TO_QAM_FRE" type="array">
+         <obj_property name="ElementShortName">SIGNAL_INTV_TO_QAM_FRE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SIGNAL_INTV_TO_QAM_FRE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/N_48" type="array">
+         <obj_property name="ElementShortName">N_48[1:0]</obj_property>
+         <obj_property name="ObjectShortName">N_48[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/N_96" type="array">
+         <obj_property name="ElementShortName">N_96[1:0]</obj_property>
+         <obj_property name="ObjectShortName">N_96[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/N_192" type="array">
+         <obj_property name="ElementShortName">N_192[1:0]</obj_property>
+         <obj_property name="ObjectShortName">N_192[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_intv/N_288" type="array">
+         <obj_property name="ElementShortName">N_288[1:0]</obj_property>
+         <obj_property name="ObjectShortName">N_288[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group413" type="group">
+      <obj_property name="label">QAM16</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/cb_clk" type="logic">
+         <obj_property name="ElementShortName">cb_clk</obj_property>
+         <obj_property name="ObjectShortName">cb_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/tx_clr" type="logic">
+         <obj_property name="ElementShortName">tx_clr</obj_property>
+         <obj_property name="ObjectShortName">tx_clr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_type" type="array">
+         <obj_property name="ElementShortName">map_type[1:0]</obj_property>
+         <obj_property name="ObjectShortName">map_type[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/QAM16_din" type="logic">
+         <obj_property name="ElementShortName">QAM16_din</obj_property>
+         <obj_property name="ObjectShortName">QAM16_din</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/QAM16_en" type="logic">
+         <obj_property name="ElementShortName">QAM16_en</obj_property>
+         <obj_property name="ObjectShortName">QAM16_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/QAM16_re" type="array">
+         <obj_property name="ElementShortName">QAM16_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">QAM16_re[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/QAM16_im" type="array">
+         <obj_property name="ElementShortName">QAM16_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">QAM16_im[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/QAM16_vld" type="logic">
+         <obj_property name="ElementShortName">QAM16_vld</obj_property>
+         <obj_property name="ObjectShortName">QAM16_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/index_out" type="array">
+         <obj_property name="ElementShortName">index_out[5:0]</obj_property>
+         <obj_property name="ObjectShortName">index_out[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_bits" type="array">
+         <obj_property name="ElementShortName">map_bits[5:0]</obj_property>
+         <obj_property name="ObjectShortName">map_bits[5:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_bits_reg" type="array">
+         <obj_property name="ElementShortName">map_bits_reg[5:0]</obj_property>
+         <obj_property name="ObjectShortName">map_bits_reg[5:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_type_reg" type="array">
+         <obj_property name="ElementShortName">map_type_reg[1:0]</obj_property>
+         <obj_property name="ObjectShortName">map_type_reg[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_bits_vld_80m" type="logic">
+         <obj_property name="ElementShortName">map_bits_vld_80m</obj_property>
+         <obj_property name="ObjectShortName">map_bits_vld_80m</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_vld_80m_20m" type="logic">
+         <obj_property name="ElementShortName">map_vld_80m_20m</obj_property>
+         <obj_property name="ObjectShortName">map_vld_80m_20m</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/cnt_bits" type="array">
+         <obj_property name="ElementShortName">cnt_bits[2:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bits[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/cnt_bits_max" type="array">
+         <obj_property name="ElementShortName">cnt_bits_max[2:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_bits_max[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/end_cnt_bits" type="logic">
+         <obj_property name="ElementShortName">end_cnt_bits</obj_property>
+         <obj_property name="ObjectShortName">end_cnt_bits</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/add_cnt_bits" type="logic">
+         <obj_property name="ElementShortName">add_cnt_bits</obj_property>
+         <obj_property name="ObjectShortName">add_cnt_bits</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_bits_vld_20m" type="logic">
+         <obj_property name="ElementShortName">map_bits_vld_20m</obj_property>
+         <obj_property name="ObjectShortName">map_bits_vld_20m</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_bits_20m" type="array">
+         <obj_property name="ElementShortName">map_bits_20m[5:0]</obj_property>
+         <obj_property name="ObjectShortName">map_bits_20m[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_type_20m" type="array">
+         <obj_property name="ElementShortName">map_type_20m[1:0]</obj_property>
+         <obj_property name="ObjectShortName">map_type_20m[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_bits_vld_80m1" type="logic">
+         <obj_property name="ElementShortName">map_bits_vld_80m1</obj_property>
+         <obj_property name="ObjectShortName">map_bits_vld_80m1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_bits_vld_80m2" type="logic">
+         <obj_property name="ElementShortName">map_bits_vld_80m2</obj_property>
+         <obj_property name="ObjectShortName">map_bits_vld_80m2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_QAM16/map_bits_vld_80m3" type="logic">
+         <obj_property name="ElementShortName">map_bits_vld_80m3</obj_property>
+         <obj_property name="ObjectShortName">map_bits_vld_80m3</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group414" type="group">
+      <obj_property name="label">pilot</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/pilot_din_re" type="array">
+         <obj_property name="ElementShortName">pilot_din_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pilot_din_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/pilot_din_im" type="array">
+         <obj_property name="ElementShortName">pilot_din_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pilot_din_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/pilot_en" type="logic">
+         <obj_property name="ElementShortName">pilot_en</obj_property>
+         <obj_property name="ObjectShortName">pilot_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/pilot_index" type="array">
+         <obj_property name="ElementShortName">pilot_index[5:0]</obj_property>
+         <obj_property name="ObjectShortName">pilot_index[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/pilot_start" type="logic">
+         <obj_property name="ElementShortName">pilot_start</obj_property>
+         <obj_property name="ObjectShortName">pilot_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/pilot_dout_re" type="array">
+         <obj_property name="ElementShortName">pilot_dout_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pilot_dout_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/pilot_vld" type="logic">
+         <obj_property name="ElementShortName">pilot_vld</obj_property>
+         <obj_property name="ObjectShortName">pilot_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/pilot_dout_im" type="array">
+         <obj_property name="ElementShortName">pilot_dout_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">pilot_dout_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/re_we_a" type="logic">
+         <obj_property name="ElementShortName">re_we_a</obj_property>
+         <obj_property name="ObjectShortName">re_we_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/re_addr_a" type="array">
+         <obj_property name="ElementShortName">re_addr_a[6:0]</obj_property>
+         <obj_property name="ObjectShortName">re_addr_a[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/re_din_a" type="array">
+         <obj_property name="ElementShortName">re_din_a[7:0]</obj_property>
+         <obj_property name="ObjectShortName">re_din_a[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/im_we_a" type="logic">
+         <obj_property name="ElementShortName">im_we_a</obj_property>
+         <obj_property name="ObjectShortName">im_we_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/im_addr_a" type="array">
+         <obj_property name="ElementShortName">im_addr_a[6:0]</obj_property>
+         <obj_property name="ObjectShortName">im_addr_a[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/im_din_a" type="array">
+         <obj_property name="ElementShortName">im_din_a[7:0]</obj_property>
+         <obj_property name="ObjectShortName">im_din_a[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/wen_out" type="logic">
+         <obj_property name="ElementShortName">wen_out</obj_property>
+         <obj_property name="ObjectShortName">wen_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/out_addr" type="array">
+         <obj_property name="ElementShortName">out_addr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">out_addr[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/din_b" type="array">
+         <obj_property name="ElementShortName">din_b[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din_b[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/re_dout_b" type="array">
+         <obj_property name="ElementShortName">re_dout_b[7:0]</obj_property>
+         <obj_property name="ObjectShortName">re_dout_b[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/im_dout_b" type="array">
+         <obj_property name="ElementShortName">im_dout_b[7:0]</obj_property>
+         <obj_property name="ObjectShortName">im_dout_b[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/pilot_en1" type="logic">
+         <obj_property name="ElementShortName">pilot_en1</obj_property>
+         <obj_property name="ObjectShortName">pilot_en1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/pilot_en2" type="logic">
+         <obj_property name="ElementShortName">pilot_en2</obj_property>
+         <obj_property name="ObjectShortName">pilot_en2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/wr_done" type="logic">
+         <obj_property name="ElementShortName">wr_done</obj_property>
+         <obj_property name="ObjectShortName">wr_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/shift_reg" type="array">
+         <obj_property name="ElementShortName">shift_reg[6:0]</obj_property>
+         <obj_property name="ObjectShortName">shift_reg[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/scram_out" type="logic">
+         <obj_property name="ElementShortName">scram_out</obj_property>
+         <obj_property name="ObjectShortName">scram_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/cnt_symbol" type="array">
+         <obj_property name="ElementShortName">cnt_symbol[6:0]</obj_property>
+         <obj_property name="ObjectShortName">cnt_symbol[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/insert" type="logic">
+         <obj_property name="ElementShortName">insert</obj_property>
+         <obj_property name="ObjectShortName">insert</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/re_dout_a" type="array">
+         <obj_property name="ElementShortName">re_dout_a[7:0]</obj_property>
+         <obj_property name="ObjectShortName">re_dout_a[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/im_dout_a" type="array">
+         <obj_property name="ElementShortName">im_dout_a[7:0]</obj_property>
+         <obj_property name="ObjectShortName">im_dout_a[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/rdy" type="logic">
+         <obj_property name="ElementShortName">rdy</obj_property>
+         <obj_property name="ObjectShortName">rdy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ofdm_modem/u_data_pilot_insert/dout_en" type="logic">
+         <obj_property name="ElementShortName">dout_en</obj_property>
+         <obj_property name="ObjectShortName">dout_en</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group415" type="group">
+      <obj_property name="label">ifft</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/clk_80m" type="logic">
+         <obj_property name="ElementShortName">clk_80m</obj_property>
+         <obj_property name="ObjectShortName">clk_80m</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/sys_clk" type="logic">
+         <obj_property name="ElementShortName">sys_clk</obj_property>
+         <obj_property name="ObjectShortName">sys_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/din_re" type="array">
+         <obj_property name="ElementShortName">din_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/din_im" type="array">
+         <obj_property name="ElementShortName">din_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/din_en" type="array">
+         <obj_property name="ElementShortName">din_en[0:0]</obj_property>
+         <obj_property name="ObjectShortName">din_en[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/dout_index" type="array">
+         <obj_property name="ElementShortName">dout_index[5:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_index[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/dout_re" type="array">
+         <obj_property name="ElementShortName">dout_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/dout_im" type="array">
+         <obj_property name="ElementShortName">dout_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/dout_vld" type="logic">
+         <obj_property name="ElementShortName">dout_vld</obj_property>
+         <obj_property name="ObjectShortName">dout_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/infifo_din" type="array">
+         <obj_property name="ElementShortName">infifo_din[15:0]</obj_property>
+         <obj_property name="ObjectShortName">infifo_din[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/infifo_wen" type="array">
+         <obj_property name="ElementShortName">infifo_wen[0:0]</obj_property>
+         <obj_property name="ObjectShortName">infifo_wen[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/infifo_dout" type="array">
+         <obj_property name="ElementShortName">infifo_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">infifo_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/infifo_ren" type="array">
+         <obj_property name="ElementShortName">infifo_ren[0:0]</obj_property>
+         <obj_property name="ObjectShortName">infifo_ren[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/infifo_empty" type="array">
+         <obj_property name="ElementShortName">infifo_empty[0:0]</obj_property>
+         <obj_property name="ObjectShortName">infifo_empty[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/infifo_full" type="array">
+         <obj_property name="ElementShortName">infifo_full[0:0]</obj_property>
+         <obj_property name="ObjectShortName">infifo_full[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/infifo_rd_count" type="array">
+         <obj_property name="ElementShortName">infifo_rd_count[6:0]</obj_property>
+         <obj_property name="ObjectShortName">infifo_rd_count[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/rd_flag" type="logic">
+         <obj_property name="ElementShortName">rd_flag</obj_property>
+         <obj_property name="ObjectShortName">rd_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/last_flag" type="logic">
+         <obj_property name="ElementShortName">last_flag</obj_property>
+         <obj_property name="ObjectShortName">last_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/rd_cnt_num" type="array">
+         <obj_property name="ElementShortName">rd_cnt_num[6:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_cnt_num[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_s_config_tready" type="logic">
+         <obj_property name="ElementShortName">fft_s_config_tready</obj_property>
+         <obj_property name="ObjectShortName">fft_s_config_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_s_data_tready" type="logic">
+         <obj_property name="ElementShortName">fft_s_data_tready</obj_property>
+         <obj_property name="ObjectShortName">fft_s_data_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_s_data_tvalid" type="logic">
+         <obj_property name="ElementShortName">fft_s_data_tvalid</obj_property>
+         <obj_property name="ObjectShortName">fft_s_data_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_s_data_tlast" type="logic">
+         <obj_property name="ElementShortName">fft_s_data_tlast</obj_property>
+         <obj_property name="ObjectShortName">fft_s_data_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_s_data_tdata" type="array">
+         <obj_property name="ElementShortName">fft_s_data_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fft_s_data_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_m_data_tdata" type="array">
+         <obj_property name="ElementShortName">fft_m_data_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fft_m_data_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_m_data_tuser" type="array">
+         <obj_property name="ElementShortName">fft_m_data_tuser[7:0]</obj_property>
+         <obj_property name="ObjectShortName">fft_m_data_tuser[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_m_data_tvalid" type="logic">
+         <obj_property name="ElementShortName">fft_m_data_tvalid</obj_property>
+         <obj_property name="ObjectShortName">fft_m_data_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_m_data_tready" type="logic">
+         <obj_property name="ElementShortName">fft_m_data_tready</obj_property>
+         <obj_property name="ObjectShortName">fft_m_data_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_m_data_tlast" type="logic">
+         <obj_property name="ElementShortName">fft_m_data_tlast</obj_property>
+         <obj_property name="ObjectShortName">fft_m_data_tlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_event_frame_started" type="logic">
+         <obj_property name="ElementShortName">fft_event_frame_started</obj_property>
+         <obj_property name="ObjectShortName">fft_event_frame_started</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_event_tlast_unexpected" type="logic">
+         <obj_property name="ElementShortName">fft_event_tlast_unexpected</obj_property>
+         <obj_property name="ObjectShortName">fft_event_tlast_unexpected</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_event_tlast_missing" type="logic">
+         <obj_property name="ElementShortName">fft_event_tlast_missing</obj_property>
+         <obj_property name="ObjectShortName">fft_event_tlast_missing</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_event_status_channel_halt" type="logic">
+         <obj_property name="ElementShortName">fft_event_status_channel_halt</obj_property>
+         <obj_property name="ObjectShortName">fft_event_status_channel_halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_event_data_in_channel_halt" type="logic">
+         <obj_property name="ElementShortName">fft_event_data_in_channel_halt</obj_property>
+         <obj_property name="ObjectShortName">fft_event_data_in_channel_halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/fft_event_data_out_channel_halt" type="logic">
+         <obj_property name="ElementShortName">fft_event_data_out_channel_halt</obj_property>
+         <obj_property name="ObjectShortName">fft_event_data_out_channel_halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/outfifo_din" type="array">
+         <obj_property name="ElementShortName">outfifo_din[15:0]</obj_property>
+         <obj_property name="ObjectShortName">outfifo_din[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/outfifo_wen" type="array">
+         <obj_property name="ElementShortName">outfifo_wen[0:0]</obj_property>
+         <obj_property name="ObjectShortName">outfifo_wen[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/outfifo_dout" type="array">
+         <obj_property name="ElementShortName">outfifo_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">outfifo_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/outfifo_ren" type="array">
+         <obj_property name="ElementShortName">outfifo_ren[0:0]</obj_property>
+         <obj_property name="ObjectShortName">outfifo_ren[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/outfifo_full" type="array">
+         <obj_property name="ElementShortName">outfifo_full[0:0]</obj_property>
+         <obj_property name="ObjectShortName">outfifo_full[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/outfifo_empty" type="array">
+         <obj_property name="ElementShortName">outfifo_empty[0:0]</obj_property>
+         <obj_property name="ObjectShortName">outfifo_empty[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/outfifo_rd_count" type="array">
+         <obj_property name="ElementShortName">outfifo_rd_count[6:0]</obj_property>
+         <obj_property name="ObjectShortName">outfifo_rd_count[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/out_flag" type="logic">
+         <obj_property name="ElementShortName">out_flag</obj_property>
+         <obj_property name="ObjectShortName">out_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_ifft/out_index" type="array">
+         <obj_property name="ElementShortName">out_index[5:0]</obj_property>
+         <obj_property name="ObjectShortName">out_index[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group416" type="group">
+      <obj_property name="label">cp_adder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/din_re" type="array">
+         <obj_property name="ElementShortName">din_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/din_im" type="array">
+         <obj_property name="ElementShortName">din_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/din_en" type="logic">
+         <obj_property name="ElementShortName">din_en</obj_property>
+         <obj_property name="ObjectShortName">din_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/din_index" type="array">
+         <obj_property name="ElementShortName">din_index[5:0]</obj_property>
+         <obj_property name="ObjectShortName">din_index[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/dout_re" type="array">
+         <obj_property name="ElementShortName">dout_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/dout_im" type="array">
+         <obj_property name="ElementShortName">dout_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/dout_vld" type="logic">
+         <obj_property name="ElementShortName">dout_vld</obj_property>
+         <obj_property name="ObjectShortName">dout_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/wen_1" type="logic">
+         <obj_property name="ElementShortName">wen_1</obj_property>
+         <obj_property name="ObjectShortName">wen_1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/wen_2" type="logic">
+         <obj_property name="ElementShortName">wen_2</obj_property>
+         <obj_property name="ObjectShortName">wen_2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/spram_flag" type="logic">
+         <obj_property name="ElementShortName">spram_flag</obj_property>
+         <obj_property name="ObjectShortName">spram_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/rd_ram_en" type="logic">
+         <obj_property name="ElementShortName">rd_ram_en</obj_property>
+         <obj_property name="ObjectShortName">rd_ram_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/rd_ram_addr" type="array">
+         <obj_property name="ElementShortName">rd_ram_addr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_ram_addr[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/rd_data_cnt" type="array">
+         <obj_property name="ElementShortName">rd_data_cnt[5:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_cnt[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/dout_re_1" type="array">
+         <obj_property name="ElementShortName">dout_re_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_re_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/dout_im_1" type="array">
+         <obj_property name="ElementShortName">dout_im_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_im_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/dout_re_2" type="array">
+         <obj_property name="ElementShortName">dout_re_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_re_2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/dout_im_2" type="array">
+         <obj_property name="ElementShortName">dout_im_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_im_2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/first_re_1" type="array">
+         <obj_property name="ElementShortName">first_re_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">first_re_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/first_im_1" type="array">
+         <obj_property name="ElementShortName">first_im_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">first_im_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/first_re_2" type="array">
+         <obj_property name="ElementShortName">first_re_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">first_re_2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_cp_adder/first_im_2" type="array">
+         <obj_property name="ElementShortName">first_im_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">first_im_2[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group417" type="group">
+      <obj_property name="label">train</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/tx_clr" type="logic">
+         <obj_property name="ElementShortName">tx_clr</obj_property>
+         <obj_property name="ObjectShortName">tx_clr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/start_en" type="logic">
+         <obj_property name="ElementShortName">start_en</obj_property>
+         <obj_property name="ObjectShortName">start_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/train_im" type="array">
+         <obj_property name="ElementShortName">train_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">train_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/train_re" type="array">
+         <obj_property name="ElementShortName">train_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">train_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/train_dv" type="logic">
+         <obj_property name="ElementShortName">train_dv</obj_property>
+         <obj_property name="ObjectShortName">train_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/train_index" type="array">
+         <obj_property name="ElementShortName">train_index[8:0]</obj_property>
+         <obj_property name="ObjectShortName">train_index[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/train_done" type="logic">
+         <obj_property name="ElementShortName">train_done</obj_property>
+         <obj_property name="ObjectShortName">train_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/sts_en" type="logic">
+         <obj_property name="ElementShortName">sts_en</obj_property>
+         <obj_property name="ObjectShortName">sts_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/sts_im" type="array">
+         <obj_property name="ElementShortName">sts_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sts_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/sts_re" type="array">
+         <obj_property name="ElementShortName">sts_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sts_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/sts_dv" type="logic">
+         <obj_property name="ElementShortName">sts_dv</obj_property>
+         <obj_property name="ObjectShortName">sts_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/sts_index" type="logic">
+         <obj_property name="ElementShortName">sts_index</obj_property>
+         <obj_property name="ObjectShortName">sts_index</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/sts_done" type="logic">
+         <obj_property name="ElementShortName">sts_done</obj_property>
+         <obj_property name="ObjectShortName">sts_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/lts_en" type="logic">
+         <obj_property name="ElementShortName">lts_en</obj_property>
+         <obj_property name="ObjectShortName">lts_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/lts_im" type="array">
+         <obj_property name="ElementShortName">lts_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lts_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/lts_re" type="array">
+         <obj_property name="ElementShortName">lts_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lts_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/lts_dv" type="logic">
+         <obj_property name="ElementShortName">lts_dv</obj_property>
+         <obj_property name="ObjectShortName">lts_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/lts_index" type="logic">
+         <obj_property name="ElementShortName">lts_index</obj_property>
+         <obj_property name="ObjectShortName">lts_index</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/lts_done" type="logic">
+         <obj_property name="ElementShortName">lts_done</obj_property>
+         <obj_property name="ObjectShortName">lts_done</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group418" type="group">
+      <obj_property name="label">sts</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/tx_clr" type="logic">
+         <obj_property name="ElementShortName">tx_clr</obj_property>
+         <obj_property name="ObjectShortName">tx_clr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/sts_en" type="logic">
+         <obj_property name="ElementShortName">sts_en</obj_property>
+         <obj_property name="ObjectShortName">sts_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/sts_im" type="array">
+         <obj_property name="ElementShortName">sts_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sts_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/sts_re" type="array">
+         <obj_property name="ElementShortName">sts_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sts_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/sts_dv" type="logic">
+         <obj_property name="ElementShortName">sts_dv</obj_property>
+         <obj_property name="ObjectShortName">sts_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/sts_index" type="array">
+         <obj_property name="ElementShortName">sts_index[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sts_index[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/sts_done" type="logic">
+         <obj_property name="ElementShortName">sts_done</obj_property>
+         <obj_property name="ObjectShortName">sts_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/short_mem" type="array">
+         <obj_property name="ElementShortName">short_mem[15:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">short_mem[15:0][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/i" type="array">
+         <obj_property name="ElementShortName">i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">i[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/j" type="array">
+         <obj_property name="ElementShortName">j[3:0]</obj_property>
+         <obj_property name="ObjectShortName">j[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/STS/sts_req" type="logic">
+         <obj_property name="ElementShortName">sts_req</obj_property>
+         <obj_property name="ObjectShortName">sts_req</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group423" type="group">
+      <obj_property name="label">lst</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/tx_clr" type="logic">
+         <obj_property name="ElementShortName">tx_clr</obj_property>
+         <obj_property name="ObjectShortName">tx_clr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/lts_en" type="logic">
+         <obj_property name="ElementShortName">lts_en</obj_property>
+         <obj_property name="ObjectShortName">lts_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/lts_im" type="array">
+         <obj_property name="ElementShortName">lts_im[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lts_im[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/lts_re" type="array">
+         <obj_property name="ElementShortName">lts_re[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lts_re[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/lts_dv" type="logic">
+         <obj_property name="ElementShortName">lts_dv</obj_property>
+         <obj_property name="ObjectShortName">lts_dv</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/lts_index" type="array">
+         <obj_property name="ElementShortName">lts_index[7:0]</obj_property>
+         <obj_property name="ObjectShortName">lts_index[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/lts_done" type="logic">
+         <obj_property name="ElementShortName">lts_done</obj_property>
+         <obj_property name="ObjectShortName">lts_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/i" type="array">
+         <obj_property name="ElementShortName">i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">i[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/long_mem" type="array">
+         <obj_property name="ElementShortName">long_mem[15:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">long_mem[15:0][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/j" type="array">
+         <obj_property name="ElementShortName">j[3:0]</obj_property>
+         <obj_property name="ObjectShortName">j[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_train/LTS/lts_req" type="logic">
+         <obj_property name="ElementShortName">lts_req</obj_property>
+         <obj_property name="ObjectShortName">lts_req</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group424" type="group">
+      <obj_property name="label">mcu</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/mac_clk" type="logic">
+         <obj_property name="ElementShortName">mac_clk</obj_property>
+         <obj_property name="ObjectShortName">mac_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/clk_20m" type="logic">
+         <obj_property name="ElementShortName">clk_20m</obj_property>
+         <obj_property name="ObjectShortName">clk_20m</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/clk_60m" type="logic">
+         <obj_property name="ElementShortName">clk_60m</obj_property>
+         <obj_property name="ObjectShortName">clk_60m</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/phy_status" type="logic">
+         <obj_property name="ElementShortName">phy_status</obj_property>
+         <obj_property name="ObjectShortName">phy_status</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/txstart_req" type="logic">
+         <obj_property name="ElementShortName">txstart_req</obj_property>
+         <obj_property name="ObjectShortName">txstart_req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/tx_param" type="array">
+         <obj_property name="ElementShortName">tx_param[20:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_param[20:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/din" type="array">
+         <obj_property name="ElementShortName">din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/din_vld" type="logic">
+         <obj_property name="ElementShortName">din_vld</obj_property>
+         <obj_property name="ObjectShortName">din_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/din_req" type="logic">
+         <obj_property name="ElementShortName">din_req</obj_property>
+         <obj_property name="ObjectShortName">din_req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/tx_clr" type="logic">
+         <obj_property name="ElementShortName">tx_clr</obj_property>
+         <obj_property name="ObjectShortName">tx_clr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/start_en" type="logic">
+         <obj_property name="ElementShortName">start_en</obj_property>
+         <obj_property name="ObjectShortName">start_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/modem_bit" type="logic">
+         <obj_property name="ElementShortName">modem_bit</obj_property>
+         <obj_property name="ObjectShortName">modem_bit</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/modem_bit_vld" type="logic">
+         <obj_property name="ElementShortName">modem_bit_vld</obj_property>
+         <obj_property name="ObjectShortName">modem_bit_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/signal_flag" type="logic">
+         <obj_property name="ElementShortName">signal_flag</obj_property>
+         <obj_property name="ObjectShortName">signal_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/rate_con" type="array">
+         <obj_property name="ElementShortName">rate_con[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rate_con[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/txpwr" type="array">
+         <obj_property name="ElementShortName">txpwr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">txpwr[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/scram_seed" type="array">
+         <obj_property name="ElementShortName">scram_seed[6:0]</obj_property>
+         <obj_property name="ObjectShortName">scram_seed[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/txstart_req1" type="logic">
+         <obj_property name="ElementShortName">txstart_req1</obj_property>
+         <obj_property name="ObjectShortName">txstart_req1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/byte_length" type="array">
+         <obj_property name="ElementShortName">byte_length[11:0]</obj_property>
+         <obj_property name="ObjectShortName">byte_length[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/rate" type="array">
+         <obj_property name="ElementShortName">rate[5:0]</obj_property>
+         <obj_property name="ObjectShortName">rate[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/signal_region" type="array">
+         <obj_property name="ElementShortName">signal_region[23:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_region[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/req_byte_cnt" type="array">
+         <obj_property name="ElementShortName">req_byte_cnt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">req_byte_cnt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/add_req_byte_cnt" type="logic">
+         <obj_property name="ElementShortName">add_req_byte_cnt</obj_property>
+         <obj_property name="ObjectShortName">add_req_byte_cnt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/end_req_byte_cnt" type="logic">
+         <obj_property name="ElementShortName">end_req_byte_cnt</obj_property>
+         <obj_property name="ObjectShortName">end_req_byte_cnt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/mac_data_req1" type="logic">
+         <obj_property name="ElementShortName">mac_data_req1</obj_property>
+         <obj_property name="ObjectShortName">mac_data_req1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/txstart_req_wait" type="logic">
+         <obj_property name="ElementShortName">txstart_req_wait</obj_property>
+         <obj_property name="ObjectShortName">txstart_req_wait</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/symbol_delay_time" type="array">
+         <obj_property name="ElementShortName">symbol_delay_time[8:0]</obj_property>
+         <obj_property name="ObjectShortName">symbol_delay_time[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/txstart_req2" type="logic">
+         <obj_property name="ElementShortName">txstart_req2</obj_property>
+         <obj_property name="ObjectShortName">txstart_req2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/txstart_req3" type="logic">
+         <obj_property name="ElementShortName">txstart_req3</obj_property>
+         <obj_property name="ObjectShortName">txstart_req3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/ofdm_runing" type="logic">
+         <obj_property name="ElementShortName">ofdm_runing</obj_property>
+         <obj_property name="ObjectShortName">ofdm_runing</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/ofdm_byte_req" type="logic">
+         <obj_property name="ElementShortName">ofdm_byte_req</obj_property>
+         <obj_property name="ObjectShortName">ofdm_byte_req</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/symbol_period" type="array">
+         <obj_property name="ElementShortName">symbol_period[8:0]</obj_property>
+         <obj_property name="ObjectShortName">symbol_period[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/add_symbol_period" type="logic">
+         <obj_property name="ElementShortName">add_symbol_period</obj_property>
+         <obj_property name="ObjectShortName">add_symbol_period</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/end_symbol_period" type="logic">
+         <obj_property name="ElementShortName">end_symbol_period</obj_property>
+         <obj_property name="ObjectShortName">end_symbol_period</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/ofdm_symbol_cnt" type="array">
+         <obj_property name="ElementShortName">ofdm_symbol_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ofdm_symbol_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/ofdm_symbol_cnt_max" type="array">
+         <obj_property name="ElementShortName">ofdm_symbol_cnt_max[7:0]</obj_property>
+         <obj_property name="ObjectShortName">ofdm_symbol_cnt_max[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/add_ofdm_symbol_cnt" type="logic">
+         <obj_property name="ElementShortName">add_ofdm_symbol_cnt</obj_property>
+         <obj_property name="ObjectShortName">add_ofdm_symbol_cnt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/end_ofdm_symbol_cnt" type="logic">
+         <obj_property name="ElementShortName">end_ofdm_symbol_cnt</obj_property>
+         <obj_property name="ObjectShortName">end_ofdm_symbol_cnt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/rd_fifo_en" type="logic">
+         <obj_property name="ElementShortName">rd_fifo_en</obj_property>
+         <obj_property name="ObjectShortName">rd_fifo_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/rd_fifo_vld" type="logic">
+         <obj_property name="ElementShortName">rd_fifo_vld</obj_property>
+         <obj_property name="ObjectShortName">rd_fifo_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/rd_fifo_data" type="logic">
+         <obj_property name="ElementShortName">rd_fifo_data</obj_property>
+         <obj_property name="ObjectShortName">rd_fifo_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/signal_flag_reg1" type="logic">
+         <obj_property name="ElementShortName">signal_flag_reg1</obj_property>
+         <obj_property name="ObjectShortName">signal_flag_reg1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/signal_flag_reg2" type="logic">
+         <obj_property name="ElementShortName">signal_flag_reg2</obj_property>
+         <obj_property name="ObjectShortName">signal_flag_reg2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/signal_bit_period" type="array">
+         <obj_property name="ElementShortName">signal_bit_period[2:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_bit_period[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/signal_bit_out" type="logic">
+         <obj_property name="ElementShortName">signal_bit_out</obj_property>
+         <obj_property name="ObjectShortName">signal_bit_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/signal_bit_vld" type="logic">
+         <obj_property name="ElementShortName">signal_bit_vld</obj_property>
+         <obj_property name="ObjectShortName">signal_bit_vld</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/signal_bit_cnt" type="array">
+         <obj_property name="ElementShortName">signal_bit_cnt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">signal_bit_cnt[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/signal_bit_vld1" type="logic">
+         <obj_property name="ElementShortName">signal_bit_vld1</obj_property>
+         <obj_property name="ObjectShortName">signal_bit_vld1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/signal_bit_out1" type="logic">
+         <obj_property name="ElementShortName">signal_bit_out1</obj_property>
+         <obj_property name="ObjectShortName">signal_bit_out1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/train_runing" type="logic">
+         <obj_property name="ElementShortName">train_runing</obj_property>
+         <obj_property name="ObjectShortName">train_runing</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/OFDM_SYMBOL_BYTES" type="array">
+         <obj_property name="ElementShortName">OFDM_SYMBOL_BYTES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFDM_SYMBOL_BYTES[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/SYMBOL_PERIOD_TIME" type="array">
+         <obj_property name="ElementShortName">SYMBOL_PERIOD_TIME[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SYMBOL_PERIOD_TIME[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/SIGNAL_BIT_PERIOD" type="array">
+         <obj_property name="ElementShortName">SIGNAL_BIT_PERIOD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SIGNAL_BIT_PERIOD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_test_ofdm/u_test/u_trans_mcu/DATA_SYMBO_WAIT_TIME" type="array">
+         <obj_property name="ElementShortName">DATA_SYMBO_WAIT_TIME[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_SYMBO_WAIT_TIME[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

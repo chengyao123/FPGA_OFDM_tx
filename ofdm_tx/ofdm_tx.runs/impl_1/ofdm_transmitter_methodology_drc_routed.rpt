@@ -1,0 +1,62 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Jul 16 15:52:06 2024
+| Host         : DESKTOP-5JNUKTK running 64-bit major release  (build 9200)
+| Command      : report_methodology -file ofdm_transmitter_methodology_drc_routed.rpt -pb ofdm_transmitter_methodology_drc_routed.pb -rpx ofdm_transmitter_methodology_drc_routed.rpx
+| Design       : ofdm_transmitter
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 5
++-----------+----------+------------------------------------+------------+
+| Rule      | Severity | Description                        | Violations |
++-----------+----------+------------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert       | 2          |
+| TIMING-9  | Warning  | Unknown CDC Logic                  | 1          |
+| TIMING-24 | Warning  | Overridden Max delay datapath only | 2          |
++-----------+----------+------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell u_train/STS_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) u_ofdm_modem/u_QAM16/QAM16_re_reg[0]/CLR, u_ofdm_modem/u_QAM16/QAM16_vld_reg/CLR, u_ofdm_modem/u_QAM16/map_bits_vld_20m_reg/CLR, u_ofdm_modem/u_QAM16/map_type_20m_reg[0]/CLR, u_ofdm_modem/u_QAM16/index_out_reg[0]/PRE, u_ofdm_modem/u_QAM16/index_out_reg[1]/PRE, u_ofdm_modem/u_QAM16/index_out_reg[2]/PRE, u_ofdm_modem/u_QAM16/index_out_reg[3]/PRE, u_ofdm_modem/u_QAM16/index_out_reg[4]/PRE, u_ofdm_modem/u_QAM16/index_out_reg[5]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell u_trans_mcu/signal_bit_vld_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) u_trans_mcu/signal_bit_cnt_reg[0]/CLR, u_trans_mcu/signal_bit_cnt_reg[1]/CLR, u_trans_mcu/signal_bit_cnt_reg[2]/CLR, u_trans_mcu/signal_bit_cnt_reg[3]/CLR, u_trans_mcu/signal_bit_cnt_reg[4]/CLR, u_trans_mcu/signal_bit_out_reg/CLR, u_trans_mcu/signal_bit_vld_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-9#1 Warning
+Unknown CDC Logic  
+One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
+Related violations: <none>
+
+TIMING-24#1 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 4 in the Timing Constraints window in Vivado IDE) between clocks clk_7_5m_pll_clk and clk_60m_pll_clk overrides a set_max_delay -datapath_only (position 19). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+TIMING-24#2 Warning
+Overridden Max delay datapath only  
+A set_clock_groups or a set_false path (see constraint position 6 in the Timing Constraints window in Vivado IDE) between clocks clk_60m_pll_clk and clk_7_5m_pll_clk overrides a set_max_delay -datapath_only (position 17). It is not recommended to override a set_max_delay -datapath_only constraint. Replace the set_clock_groups or set_false_path between clocks with point-to-point set_false_path constraints
+Related violations: <none>
+
+
